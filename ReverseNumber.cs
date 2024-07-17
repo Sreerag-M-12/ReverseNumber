@@ -8,7 +8,7 @@ class ReverseNumber{
 		char[] array=myNumber.ToCharArray();
 		Array.Reverse(array);
 		string reverseString=new String(array);
-				
-		Console.WriteLine("The number in reverse is " + reverseString);
+		int reversedNumber = Convert.ToInt32(reverseString);		
+		Console.WriteLine("The number in reverse is " + reversedNumber);
 	}
 }
